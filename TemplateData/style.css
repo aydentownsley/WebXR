@@ -7,11 +7,11 @@ body { padding: 0; margin: 0 }
 #unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; background: url('progress-bar-empty-dark.png') no-repeat center }
 #unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
 #unity-footer { position: relative }
-#unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
+#unity-webgl-logo {padding-top: 30px; float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
 #unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
 #unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
-#unity-webxr-link { float: left; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
-#entervr:enabled { float: right; width: 38px; height: 38px; background-color: #1eaed3; display: inline-block; border: 0; }
-#enterar:enabled { float: right; width: 38px; height: 38px; background-color: #1eaed3; display: inline-block; border: 0; }
+#unity-webxr-link { padding-top: 17px; color: white; float: left; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
+#link {color: orange;}
+#entervr:enabled {margin-top: 10px;color: white; font-weight: bold; float: right; width: 104px; height: 38px; background-color: rgb(37, 128, 246); display: inline-block; border: 0; border-radius: 10px;}
+#entervr:hover {opacity: .5; cursor: pointer;}
 #entervr:disabled { float: right; width: 38px; height: 38px; background-color: #dddddd; display: inline-block; border: 0; }
-#enterar:disabled { float: right; width: 38px; height: 38px; background-color: #dddddd; display: inline-block; border: 0; }
